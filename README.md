@@ -2,7 +2,7 @@
  <img src= "src/assets/movie.png">
 </p>
 
-<div style="text-align:center;"># MovieTime</div>
+<center><h1> MovieTime</h1></center>
 
 
 A movie search app based on React
