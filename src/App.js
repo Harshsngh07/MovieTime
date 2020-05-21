@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Movie from "./assets/movie.png";
-import SearchMovies from "./SearchMovies";
+import SearchMovies from "./Components/SearchMovies";
 
 function App() {
   return (
