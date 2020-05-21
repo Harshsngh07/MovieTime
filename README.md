@@ -1,7 +1,8 @@
 <p align="center>
- # MovieTime 
+ ![Alt text](/src/assets/movie.png)
 </p>
 
-![Alt text](/src/assets/movie.png)
+# MovieTime
+
 
 A movie search app based on React
