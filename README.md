@@ -1,5 +1,5 @@
 <p align="center>
-  # MovieTime 
+ # MovieTime 
 </p>
 
 ![Alt text](/src/assets/movie.png)
