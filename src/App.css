@@ -88,6 +88,7 @@ small {
 }
 
 .card--title {
+  padding: 10px;
   margin-bottom: 0.5rem;
   font-size: 3.2rem;
 }
@@ -96,4 +97,20 @@ small {
   margin: 0 auto;
   display: block;
   padding-top: 4rem;
+}
+
+.card--date {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.card--rating {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.card--desc {
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 3rem;
 }
