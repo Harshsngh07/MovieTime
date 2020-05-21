@@ -5,4 +5,4 @@
 <h1 align="center">MovieTime</h1></h1>
 
 
-####A movie search app based on React
+#### Single search app for all your favorite movies.
