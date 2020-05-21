@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function SearchMovies() {
+  const [query, setQuery] = useState("");
+  const searchMovies = async (e) => {
+    e.preventDefault();
+
+    try {
+      const url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query=${query}&page=1&include_adult=false`;
+      const res = await fetch(url);
+      const data = await res.json();
+      console.log(data);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleChange = (e) => {
+    setQuery(e.target.value);
+  };
+
   return (
     <div>
       <form className="form">
@@ -12,8 +30,10 @@ export default function SearchMovies() {
           type="text"
           name="query"
           placeholder="ex. Harry Potter"
+          value={query}
+          onChange={handleChange}
         />
-        <button className="button" type="button">
+        <button className="button" type="button" onClick={searchMovies}>
           Search
         </button>
       </form>
