@@ -4,7 +4,7 @@ import SearchMovies from "./SearchMovies";
 function App() {
   return (
     <div className="container">
-      <h1 className="title">MoHub</h1>
+      <h1 className="title">MovieTime</h1>
       <SearchMovies />
     </div>
   );
