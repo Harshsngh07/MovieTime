@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans&family=Noto+Serif&display=swap");
+
 html {
   font-size: 10px;
+  font-family: "Crimson Text", serif;
 }
 
 * {
@@ -76,7 +79,7 @@ small {
   }
 
   .title {
-    margin-top: -4rem;
+    margin-top: -7.5rem;
     margin-bottom: 5rem;
   }
 
@@ -129,4 +132,5 @@ small {
   padding: 10px;
   font-size: 2rem;
   line-height: 3rem;
+  text-align: justify;
 }
