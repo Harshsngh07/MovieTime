@@ -33,8 +33,9 @@ small {
 }
 
 .label {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 0.2rem;
+  margin-right: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -72,4 +73,27 @@ small {
   .input {
     margin-bottom: 0;
   }
+}
+
+.card-list {
+  margin-top: 4rem;
+}
+
+.card {
+  padding: 2rem, 4rem;
+  margin-bottom: 2rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: floralwhite;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.card--image {
+  margin: 0 auto;
+  display: block;
+  padding-top: 4rem;
 }
