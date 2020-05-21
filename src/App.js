@@ -4,7 +4,7 @@ import SearchMovies from "./SearchMovies";
 function App() {
   return (
     <div className="container">
-      <h1 className="title">React Movie Search</h1>
+      <h1 className="title">MoHub</h1>
       <SearchMovies />
     </div>
   );
