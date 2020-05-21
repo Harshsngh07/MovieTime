@@ -1,4 +1,4 @@
-# MovieTime
+# MovieTime {style=text-align:center}
 
 ![Alt text](/src/assets/movie.png)
 
