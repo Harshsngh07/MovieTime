@@ -12,6 +12,7 @@ export default function SearchMovies(props) {
       const url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query=${query}&page=1&include_adult=false`;
       const res = await fetch(url);
       const data = await res.json();
+      console.log(data);
       setMovies(data.results);
     } catch (e) {
       console.error(e);
