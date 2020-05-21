@@ -1,5 +1,5 @@
 <p align="center">
- <img src= "src/assets/movie.png">
+ <img src= "src/assets/movie2.png">
 </p>
 
 <h1 align="center">MovieTime</h1></h1>
