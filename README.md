@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
- <h1>MovieTime</h1>
+  <h1>MovieTime</h1>
 </p>
 
 
