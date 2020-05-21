@@ -23,7 +23,13 @@ small {
   padding: 40px;
 }
 
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .title {
+  margin-top: -2rem;
   font-size: 4.4rem;
   text-align: center;
 }
@@ -64,6 +70,16 @@ small {
 }
 
 @media (min-width: 786px) {
+  .logo {
+    margin-left: 27rem;
+    margin-bottom: -7rem;
+  }
+
+  .title {
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+  }
+
   .form {
     grid-template-columns: auto 1fr auto;
     grid-gap: 1rem;
