@@ -1,4 +1,6 @@
-<center> # MovieTime </center>
+<center>
+ # MovieTime 
+</center>
 
 ![Alt text](/src/assets/movie.png)
 
