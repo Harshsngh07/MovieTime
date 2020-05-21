@@ -38,7 +38,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./ --domain mohub.surge.sh"
+      "pre-push": "surge --project ./build --domain mohub.surge.sh"
     }
   }
 }
