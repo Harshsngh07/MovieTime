@@ -8,4 +8,4 @@
 #### Single search app for all your favorite movies.
 
 
-<p>See the Live Demo [here](http://mohub.surge.sh/) </p>
+<p>See the Live Demo <a href="http://mohub.surge.sh/">here</a> </p>
