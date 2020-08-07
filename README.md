@@ -1,6 +1,7 @@
-<img src="https://img.shields.io/github/issues/Harshsngh07/MovieTime?style=flat-square"> <img src="https://img.shields.io/github/forks/Harshsngh07/MovieTime?style=social">
+<p align="center">
+          <img src="https://img.shields.io/github/issues/Harshsngh07/MovieTime?style=flat-square"> <img src="https://img.shields.io/github/forks/Harshsngh07/MovieTime?style=social">
 <img src="https://img.shields.io/github/stars/Harshsngh07/MovieTime">
-<img src="https://img.shields.io/github/license/Harshsngh07/MovieTime">
+                                                                    <img src="https://img.shields.io/github/license/Harshsngh07/MovieTime"></p>
 
 
 <p align="center">
