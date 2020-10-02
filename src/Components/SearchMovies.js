@@ -25,7 +25,7 @@ export default function SearchMovies(props) {
 
   return (
     <div>
-      <form className="form">
+      <form className="form" method="POST" onSubmit={searchMovies} >
         <label className="label" htmlFor="query">
           Movie Name
         </label>
@@ -37,7 +37,7 @@ export default function SearchMovies(props) {
           value={query}
           onChange={handleChange}
         />
-        <button className="button" type="button" onClick={searchMovies}>
+        <button className="button" type="submit">
           Search
         </button>
       </form>
